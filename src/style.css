@@ -24,7 +24,7 @@ body {
   margin-left: 50px;
 }
 
-nav ul li:last-child a {
+.header__nav, .nav__list, .nav__item li:last-child.nav__link {
   margin-right: 0;
 }
 
@@ -76,23 +76,4 @@ nav ul li:last-child a {
   top: 56px;
 }
 
-/* content: '';
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: var(--accent);
 
-
- /* font-weight: 500;
-  font-size: 12px;
-  font-family: Roboto, sans-serif;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  height: var(--link-height);
-  text-decoration: none;
-  color: #000; */
