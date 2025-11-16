@@ -24,7 +24,9 @@ body {
   margin-left: 50px;
 }
 
-.header__nav, .nav__list, .nav__item li:last-child.nav__link {
+.header__nav,
+.nav__list,
+.nav__item:last-child.nav__link {
   margin-right: 0;
 }
 
@@ -75,5 +77,3 @@ body {
   border-radius: 8px;
   top: 56px;
 }
-
-
