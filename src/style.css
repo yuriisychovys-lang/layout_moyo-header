@@ -26,7 +26,8 @@ body {
 
 .header__nav,
 .nav__list,
-.nav__item:last-child.nav__link {
+.nav__item,
+.nav__link {
   margin-right: 0;
 }
 
